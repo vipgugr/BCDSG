@@ -1,7 +1,7 @@
 # BCDSG
 Fully Automatic Blind Color Deconvolution of Histological Images Using Super Gaussians
 
-
+![github-small](/example_image.jpg)
 Matlab code. See example.m for an use case over a single H&E image
 
 F. Pérez-Bueno, M. Vega, V. Naranjo, R. Molina and A. K. Katsaggelos,\
