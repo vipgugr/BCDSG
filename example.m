@@ -1,11 +1,14 @@
 % This example shows how to use the method proposed in:
-% Fernando Pérez-Bueno, Miguel Vega, Valery Naranjo, Rafael Molina, Aggelos K. Katsaggelos,
+% Fernando PÃ©rez-Bueno, Miguel Vega, Valery Naranjo, Rafael Molina, Aggelos K. Katsaggelos,
 %
 %
 % 
 %% Load image and reference vectors
 clc,clear all
 I = imread('histWB.jpg');
+% In this example we will be using Landini reference vectors (default). 
+% It is strongly recommended to update the reference matrix according to the images you are working with.
+% The reference should be representative of the tissue/ stain center/ scanner 
 load 'MLandini' RM;
 [m,n,nc] = size(I);
 subplot(241),imshow(I)
